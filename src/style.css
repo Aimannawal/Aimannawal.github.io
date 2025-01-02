@@ -4,8 +4,6 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
-
-
 /* Typing Animation */
 .typing::after {
     content: '|';
