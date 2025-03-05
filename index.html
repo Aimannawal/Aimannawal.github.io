@@ -13,7 +13,7 @@
     <nav class="fixed w-full bg-white bg-opacity-90 shadow-sm z-10">
         <div class="container mx-auto px-6 py-4">
             <div class="flex justify-between items-center">
-                <a href="#home" class="text-2xl">Aiman.code</a>
+                <a href="#home" class="text-2xl">Aimanwafi'i</a>
                 
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-8">
@@ -312,6 +312,17 @@
     </footer>    
 
     <script src="src/script.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis"></script>
+    <script>
+        const lenis = new Lenis()
+      
+        function raf(time) {
+          lenis.raf(time)
+          requestAnimationFrame(raf)
+        }
+      
+        requestAnimationFrame(raf)
+      </script>      
 </body>
 </html>
 
